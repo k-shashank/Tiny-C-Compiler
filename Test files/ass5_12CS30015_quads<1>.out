@@ -1,0 +1,225 @@
+No of parameters = 0
+<=====================Symbol Table===================>
+|0 | main | function | null | 4 | 0 | -4 | ptr-to-ST(func)|
+<====================================================>
+
+No of parameters = 1
+
+<======================main===========================>
+
+<=====================Symbol Table===================>
+|0 | aBC | int | null | 4 | 0 | 8 | null |
+|1 | RetVal | int | null | 4 | 0 | 4 | null |
+|2 | a | int | null | 4 | 4 | -4 | null |
+|3 | b | array(3,int) | null | 12 | 12 | -16 | null |
+|4 | t0 | int | 3 | 4 | 8 | -20 | null |
+|5 | c | int | null | 4 | 24 | -24 | null |
+|6 | d | int | null | 4 | 28 | -28 | null |
+|7 | x | int | null | 4 | 32 | -32 | null |
+|8 | y | int | null | 4 | 36 | -36 | null |
+|9 | prints | null | 4 | 0 | -40 | null |
+|10 | t1 | string | "The elements before sorting are : " | 8 | 40 | -48 | null |
+|11 | t2 | int | null | 4 | 0 | -52 | null |
+|12 | t3 | int | 0 | 4 | 48 | -56 | null |
+|13 | t4 | null | 4 | 0 | -60 | null |
+|14 | t5 | ptr_int | null | 4 | 52 | -64 | null |
+|15 | t6 | int | 7 | 4 | 56 | -68 | null |
+|16 | t7 | int | 1 | 4 | 60 | -72 | null |
+|17 | t8 | null | 4 | 0 | -76 | null |
+|18 | t9 | ptr_int | null | 4 | 64 | -80 | null |
+|19 | t10 | int | 6 | 4 | 68 | -84 | null |
+|20 | t11 | int | 2 | 4 | 72 | -88 | null |
+|21 | t12 | null | 4 | 0 | -92 | null |
+|22 | t13 | ptr_int | null | 4 | 76 | -96 | null |
+|23 | t14 | int | 5 | 4 | 80 | -100 | null |
+|24 | t15 | int | 0 | 4 | 84 | -104 | null |
+|25 | t16 | null | 4 | 0 | -108 | null |
+|26 | t17 | ptr_int | null | 4 | 88 | -112 | null |
+|27 | printi | null | 4 | 0 | -116 | null |
+|28 | t18 | int | null | 4 | 0 | -120 | null |
+|29 | t19 | string | "\n" | 8 | 92 | -128 | null |
+|30 | t20 | int | null | 4 | 0 | -132 | null |
+|31 | t21 | int | 1 | 4 | 100 | -136 | null |
+|32 | t22 | null | 4 | 0 | -140 | null |
+|33 | t23 | ptr_int | null | 4 | 104 | -144 | null |
+|34 | t24 | int | null | 4 | 0 | -148 | null |
+|35 | t25 | string | "\n" | 8 | 108 | -156 | null |
+|36 | t26 | int | null | 4 | 0 | -160 | null |
+|37 | t27 | int | 2 | 4 | 116 | -164 | null |
+|38 | t28 | null | 4 | 0 | -168 | null |
+|39 | t29 | ptr_int | null | 4 | 120 | -172 | null |
+|40 | t30 | int | null | 4 | 0 | -176 | null |
+|41 | t31 | string | "\n" | 8 | 124 | -184 | null |
+|42 | t32 | int | null | 4 | 0 | -188 | null |
+|43 | t33 | int | 2 | 4 | 132 | -192 | null |
+|44 | t34 | int | 0 | 4 | 136 | -196 | null |
+|45 | t35 | int | null | 4 | 140 | -200 | null |
+|46 | t36 | int | 0 | 4 | 144 | -204 | null |
+|47 | t37 | int | null | 4 | 148 | -208 | null |
+|48 | t38 | double | null | 4 | 0 | -212 | null |
+|49 | t39 | ptr_int | null | 4 | 152 | -216 | null |
+|50 | t40 | int | 1 | 4 | 156 | -220 | null |
+|51 | t41 | int | null | 4 | 160 | -224 | null |
+|52 | t42 | double | null | 4 | 0 | -228 | null |
+|53 | t43 | ptr_int | null | 4 | 164 | -232 | null |
+|54 | t44 | double | null | 4 | 0 | -236 | null |
+|55 | t45 | ptr_int | null | 4 | 168 | -240 | null |
+|56 | t46 | double | null | 4 | 0 | -244 | null |
+|57 | t47 | ptr_int | null | 4 | 172 | -248 | null |
+|58 | t48 | double | null | 4 | 0 | -252 | null |
+|59 | t49 | ptr_int | null | 4 | 176 | -256 | null |
+|60 | t50 | double | null | 4 | 0 | -260 | null |
+|61 | t51 | ptr_int | null | 4 | 180 | -264 | null |
+|62 | t52 | string | "The elements after sorting are : " | 8 | 184 | -272 | null |
+|63 | t53 | int | null | 4 | 0 | -276 | null |
+|64 | t54 | int | 0 | 4 | 192 | -280 | null |
+|65 | t55 | null | 4 | 0 | -284 | null |
+|66 | t56 | ptr_int | null | 4 | 196 | -288 | null |
+|67 | t57 | int | null | 4 | 0 | -292 | null |
+|68 | t58 | string | "\n" | 8 | 200 | -300 | null |
+|69 | t59 | int | null | 4 | 0 | -304 | null |
+|70 | t60 | int | 1 | 4 | 208 | -308 | null |
+|71 | t61 | null | 4 | 0 | -312 | null |
+|72 | t62 | ptr_int | null | 4 | 212 | -316 | null |
+|73 | t63 | int | null | 4 | 0 | -320 | null |
+|74 | t64 | string | "\n" | 8 | 216 | -328 | null |
+|75 | t65 | int | null | 4 | 0 | -332 | null |
+|76 | t66 | int | 2 | 4 | 224 | -336 | null |
+|77 | t67 | null | 4 | 0 | -340 | null |
+|78 | t68 | ptr_int | null | 4 | 228 | -344 | null |
+|79 | t69 | int | null | 4 | 0 | -348 | null |
+|80 | t70 | string | "\n" | 8 | 232 | -356 | null |
+|81 | t71 | int | null | 4 | 0 | -360 | null |
+|82 | t72 | int | 0 | 4 | 240 | -364 | null |
+<====================================================>
+
+0 : start main :
+1 : t0 = 3
+2 : t1 = "The elements before sorting are : "
+3 : param  t1
+4 : t2 = call prints , 1
+5 : x = t2
+6 : t3 = 0
+7 : t4 = 4*t3
+8 : t6 = 7
+9 : b[t4] = t6
+10 : t7 = 1
+11 : t8 = 4*t7
+12 : t10 = 6
+13 : b[t8] = t10
+14 : t11 = 2
+15 : t12 = 4*t11
+16 : t14 = 5
+17 : b[t12] = t14
+18 : t15 = 0
+19 : t16 = 4*t15
+20 : t17 = b[t16]
+21 : a = t17
+22 : param  a
+23 : t18 = call printi , 1
+24 : x = t18
+25 : t19 = "\n"
+26 : param  t19
+27 : t20 = call prints , 1
+28 : x = t20
+29 : t21 = 1
+30 : t22 = 4*t21
+31 : t23 = b[t22]
+32 : a = t23
+33 : param  a
+34 : t24 = call printi , 1
+35 : x = t24
+36 : t25 = "\n"
+37 : param  t25
+38 : t26 = call prints , 1
+39 : x = t26
+40 : t27 = 2
+41 : t28 = 4*t27
+42 : t29 = b[t28]
+43 : a = t29
+44 : param  a
+45 : t30 = call printi , 1
+46 : x = t30
+47 : t31 = "\n"
+48 : param  t31
+49 : t32 = call prints , 1
+50 : x = t32
+51 : t33 = 2
+52 : y = t33
+53 : t34 = 0
+54 : if y>t34 goto 59
+55 : goto 90
+56 : t35 = y
+57 : y = t35-1
+58 : goto 53
+59 : t36 = 0
+60 : x = t36
+61 : if x<y goto 66
+62 : goto 56
+63 : t37 = x
+64 : x = t37+1
+65 : goto 61
+66 : t38 = 4*x
+67 : t39 = b[t38]
+68 : c = t39
+69 : t40 = 1
+70 : t41 = x+t40
+71 : a = t41
+72 : t42 = 4*a
+73 : t43 = b[t42]
+74 : d = t43
+75 : if c>d goto 77
+76 : goto 63
+77 : t44 = 4*x
+78 : t45 = b[t44]
+79 : c = t45
+80 : t46 = 4*a
+81 : t47 = b[t46]
+82 : d = t47
+83 : t48 = 4*x
+84 : b[t48] = d
+85 : t50 = 4*a
+86 : b[t50] = c
+87 : goto 88
+88 : goto 63
+89 : goto 56
+90 : t52 = "The elements after sorting are : "
+91 : param  t52
+92 : t53 = call prints , 1
+93 : x = t53
+94 : t54 = 0
+95 : t55 = 4*t54
+96 : t56 = b[t55]
+97 : a = t56
+98 : param  a
+99 : t57 = call printi , 1
+100 : x = t57
+101 : t58 = "\n"
+102 : param  t58
+103 : t59 = call prints , 1
+104 : x = t59
+105 : t60 = 1
+106 : t61 = 4*t60
+107 : t62 = b[t61]
+108 : a = t62
+109 : param  a
+110 : t63 = call printi , 1
+111 : x = t63
+112 : t64 = "\n"
+113 : param  t64
+114 : t65 = call prints , 1
+115 : x = t65
+116 : t66 = 2
+117 : t67 = 4*t66
+118 : t68 = b[t67]
+119 : a = t68
+120 : param  a
+121 : t69 = call printi , 1
+122 : x = t69
+123 : t70 = "\n"
+124 : param  t70
+125 : t71 = call prints , 1
+126 : x = t71
+127 : t72 = 0
+128 : return t72
+129 : end main :

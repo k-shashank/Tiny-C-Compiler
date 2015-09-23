@@ -1,0 +1,82 @@
+No of parameters = 0
+<=====================Symbol Table===================>
+|0 | fib | function | null | 4 | 0 | -4 | ptr-to-ST(func)|
+|11 | main | function | null | 4 | 32 | -48 | ptr-to-ST(func)|
+<====================================================>
+
+
+No of parameters = 1
+<======================fib===========================>
+
+<=====================Symbol Table===================>
+|0 | x | int | null | 4 | 0 | 8 | null |
+|1 | RetVal | int | null | 4 | 0 | 4 | null |
+|2 | t0 | int | 0 | 4 | 4 | -4 | null |
+|3 | t1 | int | 1 | 4 | 8 | -8 | null |
+|4 | t2 | int | 1 | 4 | 12 | -12 | null |
+|5 | t3 | int | null | 4 | 16 | -16 | null |
+|6 | t4 | int | null | 4 | 0 | -20 | null |
+|7 | t5 | int | 2 | 4 | 20 | -24 | null |
+|8 | t6 | int | null | 4 | 24 | -28 | null |
+|9 | t7 | int | null | 4 | 0 | -32 | null |
+|10 | t8 | int | null | 4 | 28 | -36 | null |
+<====================================================>
+
+
+No of parameters = 1
+
+<======================main===========================>
+
+<=====================Symbol Table===================>
+|0 | aBC | int | null | 4 | 0 | 8 | null |
+|1 | RetVal | int | null | 4 | 0 | 4 | null |
+|2 | a | int | null | 4 | 36 | -4 | null |
+|3 | b | int | null | 4 | 40 | -8 | null |
+|4 | c | int | null | 4 | 44 | -12 | null |
+|5 | readi | null | 4 | 0 | -16 | null |
+|6 | t9 | int | null | 4 | 0 | -20 | null |
+|7 | t10 | int | null | 4 | 0 | -24 | null |
+|8 | printi | null | 4 | 0 | -28 | null |
+|9 | t11 | int | null | 4 | 0 | -32 | null |
+|10 | prints | null | 4 | 0 | -36 | null |
+|11 | t12 | string | "\n" | 8 | 48 | -44 | null |
+|12 | t13 | int | null | 4 | 0 | -48 | null |
+|13 | t14 | int | 0 | 4 | 56 | -52 | null |
+<====================================================>
+
+0 : start fib :
+1 : t0 = 0
+2 : if x==t0 goto 7
+3 : goto 4
+4 : t1 = 1
+5 : if x==t1 goto 7
+6 : goto 9
+7 : return x
+8 : goto -1
+9 : t2 = 1
+10 : t3 = x-t2
+11 : param  t3
+12 : t4 = call fib , 1
+13 : t5 = 2
+14 : t6 = x-t5
+15 : param  t6
+16 : t7 = call fib , 1
+17 : t8 = t4+t7
+18 : return t8
+19 : end fib :
+20 : start main :
+21 : t9 = call readi , 0
+22 : c = t9
+23 : param  c
+24 : t10 = call fib , 1
+25 : b = t10
+26 : param  b
+27 : t11 = call printi , 1
+28 : a = t11
+29 : t12 = "\n"
+30 : param  t12
+31 : t13 = call prints , 1
+32 : a = t13
+33 : t14 = 0
+34 : return t14
+35 : end main :

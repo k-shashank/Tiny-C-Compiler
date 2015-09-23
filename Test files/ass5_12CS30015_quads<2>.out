@@ -1,0 +1,102 @@
+No of parameters = 0
+<=====================Symbol Table===================>
+|0 | main | function | null | 4 | 0 | -4 | ptr-to-ST(func)|
+<====================================================>
+
+No of parameters = 1
+<======================main===========================>
+
+<=====================Symbol Table===================>
+|0 | aBC | int | null | 4 | 0 | 8 | null |
+|1 | RetVal | int | null | 4 | 0 | 4 | null |
+|2 | a | int | null | 4 | 4 | -4 | null |
+|3 | b | int | null | 4 | 8 | -8 | null |
+|4 | c | int | null | 4 | 12 | -12 | null |
+|5 | d | int | null | 4 | 16 | -16 | null |
+|6 | x | int | null | 4 | 20 | -20 | null |
+|7 | y | int | null | 4 | 24 | -24 | null |
+|8 | t0 | int | 14 | 4 | 28 | -28 | null |
+|9 | t1 | int | 23 | 4 | 32 | -32 | null |
+|10 | printi | null | 4 | 0 | -36 | null |
+|11 | t2 | int | null | 4 | 0 | -40 | null |
+|12 | prints | null | 4 | 0 | -44 | null |
+|13 | t3 | string | " is the initial value of c" | 8 | 36 | -52 | null |
+|14 | t4 | int | null | 4 | 0 | -56 | null |
+|15 | t5 | int | 0 | 4 | 44 | -60 | null |
+|16 | t6 | int | 10 | 4 | 48 | -64 | null |
+|17 | t7 | int | null | 4 | 52 | -68 | null |
+|18 | t8 | int | null | 4 | 56 | -72 | null |
+|19 | t9 | string | "\n is the value of c after the for loop" | 8 | 60 | -80 | null |
+|20 | t10 | int | null | 4 | 0 | -84 | null |
+|21 | t11 | int | null | 4 | 0 | -88 | null |
+|22 | t12 | int | 24 | 4 | 68 | -92 | null |
+|23 | t13 | int | 24 | 4 | 72 | -96 | null |
+|24 | t14 | int | null | 4 | 76 | -100 | null |
+|25 | t15 | int | null | 4 | 80 | -104 | null |
+|26 | t16 | int | 5 | 4 | 84 | -108 | null |
+|27 | t17 | int | null | 4 | 88 | -112 | null |
+|28 | t18 | int | null | 4 | 92 | -116 | null |
+|29 | t19 | string | "\nis the value of d" | 8 | 96 | -124 | null |
+|30 | t20 | int | null | 4 | 0 | -128 | null |
+|31 | t21 | int | null | 4 | 0 | -132 | null |
+|32 | t22 | string | "\n" | 8 | 104 | -140 | null |
+|33 | t23 | int | null | 4 | 0 | -144 | null |
+|34 | t24 | int | 0 | 4 | 112 | -148 | null |
+<====================================================>
+
+0 : start main :
+1 : t0 = 14
+2 : c = t0
+3 : t1 = 23
+4 : d = t1
+5 : param  c
+6 : t2 = call printi , 1
+7 : x = t2
+8 : t3 = " is the initial value of c"
+9 : param  t3
+10 : t4 = call prints , 1
+11 : x = t4
+12 : t5 = 0
+13 : y = t5
+14 : t6 = 10
+15 : if y<t6 goto 20
+16 : goto 23
+17 : t7 = y
+18 : y = t7+1
+19 : goto 14
+20 : t8 = c
+21 : c = t8+1
+22 : goto 17
+23 : t9 = "\n is the value of c after the for loop"
+24 : param  t9
+25 : t10 = call prints , 1
+26 : x = t10
+27 : param  c
+28 : t11 = call printi , 1
+29 : x = t11
+30 : t12 = 24
+31 : if c==t12 goto 33
+32 : goto 36
+33 : t13 = 24
+34 : d = t13
+35 : goto 36
+36 : t14 = c*d
+37 : t15 = c+d
+38 : t16 = 5
+39 : t17 = t15*t16
+40 : t18 = t14-t17
+41 : d = t18
+42 : t19 = "\nis the value of d"
+43 : param  t19
+44 : t20 = call prints , 1
+45 : x = t20
+46 : param  d
+47 : t21 = call printi , 1
+48 : x = t21
+49 : t22 = "\n"
+50 : param  t22
+51 : t23 = call prints , 1
+52 : x = t23
+53 : t24 = 0
+54 : return t24
+55 : end main :

@@ -1,0 +1,70 @@
+No of parameters = 0
+<=====================Symbol Table===================>
+|0 | factorial | function | null | 4 | 0 | -4 | ptr-to-ST(func)|
+|8 | main | function | null | 4 | 24 | -36 | ptr-to-ST(func)|
+<====================================================>
+
+No of parameters = 1
+<======================factorial===========================>
+
+<=====================Symbol Table===================>
+|0 | x | int | null | 4 | 0 | 8 | null |
+|1 | RetVal | int | null | 4 | 0 | 4 | null |
+|2 | t0 | int | 1 | 4 | 4 | -4 | null |
+|3 | t1 | int | 1 | 4 | 8 | -8 | null |
+|4 | t2 | int | 1 | 4 | 12 | -12 | null |
+|5 | t3 | int | null | 4 | 16 | -16 | null |
+|6 | t4 | int | null | 4 | 0 | -20 | null |
+|7 | t5 | int | null | 4 | 20 | -24 | null |
+<====================================================>
+
+
+No of parameters = 1
+<======================main===========================>
+
+<=====================Symbol Table===================>
+|0 | aBC | int | null | 4 | 0 | 8 | null |
+|1 | RetVal | int | null | 4 | 0 | 4 | null |
+|2 | a | int | null | 4 | 28 | -4 | null |
+|3 | b | int | null | 4 | 32 | -8 | null |
+|4 | c | int | null | 4 | 36 | -12 | null |
+|5 | t6 | int | 7 | 4 | 40 | -16 | null |
+|6 | t7 | int | null | 4 | 0 | -20 | null |
+|7 | printi | null | 4 | 0 | -24 | null |
+|8 | t8 | int | null | 4 | 0 | -28 | null |
+|9 | prints | null | 4 | 0 | -32 | null |
+|10 | t9 | string | "\n" | 8 | 44 | -40 | null |
+|11 | t10 | int | null | 4 | 0 | -44 | null |
+|12 | t11 | int | 0 | 4 | 52 | -48 | null |
+<====================================================>
+
+0 : start factorial :
+1 : t0 = 1
+2 : if x==t0 goto 4
+3 : goto 7
+4 : t1 = 1
+5 : return t1
+6 : goto -1
+7 : t2 = 1
+8 : t3 = x-t2
+9 : param  t3
+10 : t4 = call factorial , 1
+11 : t5 = x*t4
+12 : return t5
+13 : end factorial :
+14 : start main :
+15 : t6 = 7
+16 : c = t6
+17 : param  c
+18 : t7 = call factorial , 1
+19 : b = t7
+20 : param  b
+21 : t8 = call printi , 1
+22 : a = t8
+23 : t9 = "\n"
+24 : param  t9
+25 : t10 = call prints , 1
+26 : a = t10
+27 : t11 = 0
+28 : return t11
+29 : end main :
